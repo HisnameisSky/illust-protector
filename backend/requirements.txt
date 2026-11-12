@@ -1,0 +1,9 @@
+fastapi==0.110.0
+uvicorn==0.28.0
+pillow>=11.0.0  # 👈 ここを新しいバージョンに変更、または単に pillow にする
+numpy==1.26.4
+piexif==1.1.3
+python-multipart==0.0.9
+httpx==0.27.0
+pytest==8.1.1
+slowapi==0.1.9
