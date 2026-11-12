@@ -47,12 +47,5 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-## 📡 主なAPIエンドポイント
-
-メソッド	パス	概要
-GET	/	バックエンドサーバーのヘルスチェック
-POST	/api/protect-workflow	AIノイズ付与・EXIF・不可視ウォーターマークの一括保護処理
-POST	/api/verify-watermark	アップロード画像からの不可視ウォーターマーク抽出・検証
-
 ## 📄 License
 All rights reserved by HisnameisSky (澄界).
