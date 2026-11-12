@@ -35,3 +35,24 @@ pip install --prefer-binary -r requirements.txt
 
 # 開発サーバーの起動 ([http://127.0.0.1:8000](http://127.0.0.1:8000))
 uvicorn main:app --reload --port 8000
+```
+
+### 2. フロントエンドの起動（React + Vite）
+別のターミナルを開き、以下を実行します。
+```bash
+cd frontend
+npm install --legacy-peer-deps
+
+# 開発サーバーの起動 (http://localhost:5173)
+npm run dev
+```
+
+## 📡 主なAPIエンドポイント
+
+メソッド	パス	概要
+GET	/	バックエンドサーバーのヘルスチェック
+POST	/api/protect-workflow	AIノイズ付与・EXIF・不可視ウォーターマークの一括保護処理
+POST	/api/verify-watermark	アップロード画像からの不可視ウォーターマーク抽出・検証
+
+## 📄 License
+All rights reserved by HisnameisSky (澄界).
