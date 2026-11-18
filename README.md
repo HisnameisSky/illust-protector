@@ -1,4 +1,4 @@
-# Illust Protector 澄界 (Sumikai)
+# Illust Protector 澄界 (Sky)
 
 イラストレーターの創作物をAI学習クローラーや不正スクレイピング、無断転載から守るためのローカル完結型・多層防御アプリケーションです。
 
